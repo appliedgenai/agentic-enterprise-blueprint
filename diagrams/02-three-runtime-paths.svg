@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1700" height="980" viewBox="0 0 1700 980" role="img" aria-labelledby="title desc">
+<title id="title">One platform, three runtime paths</title>
+<desc id="desc">Serving stays available from approved state; policy is enforced locally; evidence leaves the runtime asynchronously.</desc>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#536B7A"/></marker>
+<marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#B96B00"/></marker>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2F6FB3"/></marker>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif} .h1{font-size:34px;font-weight:700;fill:#17324D}.sub{font-size:18px;fill:#536B7A}.label{font-size:19px;font-weight:700;fill:#17324D}.small{font-size:15px;fill:#536B7A}.tiny{font-size:13px;fill:#536B7A}.path{font-size:16px;font-weight:700;letter-spacing:.7px}.box{stroke-width:2}.arrow{fill:none;stroke:#536B7A;stroke-width:2.5;marker-end:url(#arrow)}.control{fill:none;stroke:#B96B00;stroke-width:2.5;stroke-dasharray:8 7;marker-end:url(#arrow-orange)}.evidence{fill:none;stroke:#2F6FB3;stroke-width:2.5;stroke-dasharray:3 7;marker-end:url(#arrow-blue)}</style>
+</defs>
+<rect width="1700" height="980" fill="#FFFFFF"/>
+<text x="60" y="62" class="h1">One platform, three runtime paths</text>
+<text x="60" y="96" class="sub">Serving stays available from approved state; policy is enforced locally; evidence leaves the runtime asynchronously.</text>
+<text x="65" y="154" class="path" text-anchor="start">1  SERVE</text>
+<text x="65" y="392" class="path" text-anchor="start">2  DECIDE &amp; PROTECT</text>
+<text x="65" y="680" class="path" text-anchor="start">3  OBSERVE &amp; PROVE</text>
+<rect x="95" y="190" width="180" height="92" rx="14" fill="#EEF2F5" stroke="#687787" class="box"/>
+<text x="185.0" y="226" text-anchor="middle"><tspan class="label">Person / event</tspan><tspan x="185.0" dy="24" class="small">Starts work</tspan></text>
+<rect x="330" y="190" width="200" height="92" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="430.0" y="226" text-anchor="middle"><tspan class="label">Experience</tspan><tspan x="430.0" dy="24" class="small">Identity and intent</tspan></text>
+<rect x="590" y="190" width="220" height="92" rx="14" fill="#F0ECFF" stroke="#7253C7" class="box"/>
+<text x="700.0" y="226" text-anchor="middle"><tspan class="label">Agent runtime</tspan><tspan x="700.0" dy="24" class="small">No long-lived secrets</tspan></text>
+<rect x="885" y="130" width="210" height="92" rx="14" fill="#E7F7F7" stroke="#098A96" class="box"/>
+<text x="990.0" y="166" text-anchor="middle"><tspan class="label">AI gateway</tspan><tspan x="990.0" dy="24" class="small">Models and budgets</tspan></text>
+<rect x="885" y="250" width="210" height="92" rx="14" fill="#FDEEF2" stroke="#C33D61" class="box"/>
+<text x="990.0" y="286" text-anchor="middle"><tspan class="label">Tool gateway</tspan><tspan x="990.0" dy="24" class="small">Actions and APIs</tspan></text>
+<rect x="1180" y="130" width="220" height="92" rx="14" fill="#EEF2F5" stroke="#687787" class="box"/>
+<text x="1290.0" y="166" text-anchor="middle"><tspan class="label">Model providers</tspan><tspan x="1290.0" dy="24" class="small">Approved endpoints</tspan></text>
+<rect x="1180" y="250" width="220" height="92" rx="14" fill="#EEF2F5" stroke="#687787" class="box"/>
+<text x="1290.0" y="286" text-anchor="middle"><tspan class="label">Systems of record</tspan><tspan x="1290.0" dy="24" class="small">ERP, CRM, core systems</tspan></text>
+<rect x="590" y="310" width="220" height="92" rx="14" fill="#EAF6EF" stroke="#30835A" class="box"/>
+<text x="700.0" y="346" text-anchor="middle"><tspan class="label">Context service</tspan><tspan x="700.0" dy="24" class="small">Permission-aware assembly</tspan></text>
+<rect x="330" y="310" width="200" height="92" rx="14" fill="#E7F4EA" stroke="#26734D" class="box"/>
+<text x="430.0" y="346" text-anchor="middle"><tspan class="label">Data products</tspan><tspan x="430.0" dy="24" class="small">Facts, metrics, indexes</tspan></text>
+<rect x="1470" y="190" width="165" height="92" rx="14" fill="#EEF2F5" stroke="#687787" class="box"/>
+<text x="1552.5" y="226" text-anchor="middle"><tspan class="label">Embedded agent</tspan><tspan x="1552.5" dy="24" class="small">Federated / observed</tspan></text>
+<path d="M275 236 L330 236" class="arrow"/>
+<path d="M530 236 L590 236" class="arrow"/>
+<path d="M810 220 L885 176" class="arrow"/>
+<path d="M810 252 L885 296" class="arrow"/>
+<path d="M700 282 L700 310" class="arrow"/>
+<path d="M590 356 L530 356" class="arrow"/>
+<path d="M1095 176 L1180 176" class="arrow"/>
+<path d="M1095 296 L1180 296" class="arrow"/>
+<rect x="190" y="430" width="270" height="94" rx="14" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="325" y="466" text-anchor="middle"><tspan class="label">Registry + policy authoring</tspan><tspan x="325" dy="24" class="small">Agent, tool and action policy</tspan></text>
+<rect x="565" y="430" width="270" height="94" rx="14" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="700" y="466" text-anchor="middle"><tspan class="label">Signed configuration</tspan><tspan x="700" dy="24" class="small">Versioned state with short leases</tspan></text>
+<rect x="940" y="430" width="270" height="94" rx="14" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="1075" y="466" text-anchor="middle"><tspan class="label">Revocation channel</tspan><tspan x="1075" dy="24" class="small">Fast invalidation; lease expiry</tspan></text>
+<rect x="1315" y="430" width="270" height="94" rx="14" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="1450" y="466" text-anchor="middle"><tspan class="label">Credential broker</tspan><tspan x="1450" dy="24" class="small">Short-lived delegated tokens</tspan></text>
+<path d="M460 477 L565 477" class="control"/>
+<path d="M940 477 L835 477" class="control"/>
+<path d="M700 430 C700 390 700 330 700 282" class="control"/>
+<path d="M700 430 C760 385 860 265 930 222" class="control"/>
+<path d="M700 430 C790 420 900 380 930 342" class="control"/>
+<path d="M700 430 C700 420 700 412 700 402" class="control"/>
+<path d="M1315 477 C1190 470 1090 410 1015 342" class="arrow"/>
+<text x="190" y="555" class="small" text-anchor="start">Author centrally</text>
+<text x="1585" y="585" class="small" text-anchor="end">Enforce locally at model, context, runtime and tool boundaries</text>
+<rect x="1450" y="330" width="185" height="72" rx="10" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="1542" y="358" text-anchor="middle"><tspan class="label">Federation boundary</tspan><tspan x="1542" dy="24" class="small">Inventory, identity, limits</tspan></text>
+<path d="M1542 282 L1542 330" class="arrow"/>
+<path d="M1210 477 C1340 470 1430 430 1490 402" class="control"/>
+<rect x="150" y="720" width="280" height="100" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="290" y="758" text-anchor="middle"><tspan class="label">Telemetry + event ingress</tspan><tspan x="290" dy="24" class="small">Traces and vendor exports</tspan></text>
+<rect x="500" y="720" width="280" height="100" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="640" y="758" text-anchor="middle"><tspan class="label">Action record store</tspan><tspan x="640" dy="24" class="small">Correlated requests and outcomes</tspan></text>
+<rect x="850" y="720" width="280" height="100" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="990" y="758" text-anchor="middle"><tspan class="label">Evaluation service</tspan><tspan x="990" dy="24" class="small">Release and runtime verdicts</tspan></text>
+<rect x="1200" y="720" width="280" height="100" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="1340" y="758" text-anchor="middle"><tspan class="label">Evidence store</tspan><tspan x="1340" dy="24" class="small">Selected tamper-evident records</tspan></text>
+<path d="M700 282 C700 610 290 610 290 720" class="evidence"/>
+<path d="M1542 402 L1650 402 L1650 620 C1180 650 700 650 430 750" class="evidence"/>
+<path d="M990 342 C990 625 640 625 640 720" class="evidence"/>
+<path d="M430 750 C600 690 760 690 850 748" class="evidence"/>
+<path d="M780 770 L850 770" class="evidence"/>
+<path d="M1130 770 L1200 770" class="evidence"/>
+<path d="M780 800 C940 850 1080 850 1200 800" class="evidence"/>
+<rect x="190" y="858" width="1315" height="64" rx="12" fill="#EEF2F5" stroke="#687787" class="box"/>
+<text x="848" y="897" class="label" text-anchor="middle">Infrastructure substrate: cells, landing zones, networks, compute and recovery</text>
+<text x="1635" y="954" class="tiny" text-anchor="end">Solid = request   Dashed orange = control distribution   Dotted blue = evidence</text>
+</svg>

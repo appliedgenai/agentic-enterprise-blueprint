@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130" role="img" aria-labelledby="title desc">
+<title id="title">The Agentic Enterprise Blueprint</title>
+<desc id="desc">Eleven logical ownership boundaries. This is a capability map, not a request sequence.</desc>
+<defs>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#536B7A"/></marker>
+<marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#B96B00"/></marker>
+<marker id="arrow-blue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#2F6FB3"/></marker>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif} .h1{font-size:34px;font-weight:700;fill:#17324D}.sub{font-size:18px;fill:#536B7A}.label{font-size:19px;font-weight:700;fill:#17324D}.small{font-size:15px;fill:#536B7A}.tiny{font-size:13px;fill:#536B7A}.path{font-size:16px;font-weight:700;letter-spacing:.7px}.box{stroke-width:2}.arrow{fill:none;stroke:#536B7A;stroke-width:2.5;marker-end:url(#arrow)}.control{fill:none;stroke:#B96B00;stroke-width:2.5;stroke-dasharray:8 7;marker-end:url(#arrow-orange)}.evidence{fill:none;stroke:#2F6FB3;stroke-width:2.5;stroke-dasharray:3 7;marker-end:url(#arrow-blue)}</style>
+</defs>
+<rect width="1600" height="1130" fill="#FFFFFF"/>
+<text x="60" y="62" class="h1">The Agentic Enterprise Blueprint</text>
+<text x="60" y="96" class="sub">Eleven logical ownership boundaries. This is a capability map, not a request sequence.</text>
+<text x="82" y="148" class="path" text-anchor="start">DELIVERY CAPABILITIES</text>
+<text x="1110" y="148" class="path" text-anchor="start">CROSS-CUTTING CONTROL</text>
+<text x="82" y="824" class="path" text-anchor="start">OPERATIONS &amp; ASSURANCE</text>
+<rect x="82" y="172" width="940" height="88" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="110" y="206" text-anchor="start"><tspan class="label">Experience Plane</tspan><tspan x="110" dy="24" class="small">Channels, approvals and human handoff</tspan></text>
+<rect x="82" y="278" width="940" height="88" rx="14" fill="#F0ECFF" stroke="#7253C7" class="box"/>
+<text x="110" y="312" text-anchor="start"><tspan class="label">Agent Plane</tspan><tspan x="110" dy="24" class="small">Runtime, harness, orchestration and durable work</tspan></text>
+<rect x="82" y="384" width="940" height="88" rx="14" fill="#E7F7F7" stroke="#098A96" class="box"/>
+<text x="110" y="418" text-anchor="start"><tspan class="label">Intelligence Plane</tspan><tspan x="110" dy="24" class="small">AI gateway, routing, catalog and inference</tspan></text>
+<rect x="82" y="490" width="940" height="88" rx="14" fill="#EAF6EF" stroke="#30835A" class="box"/>
+<text x="110" y="524" text-anchor="start"><tspan class="label">Knowledge &amp; Context Plane</tspan><tspan x="110" dy="24" class="small">Context assembly and permission-aware retrieval</tspan></text>
+<rect x="82" y="596" width="940" height="88" rx="14" fill="#E7F4EA" stroke="#26734D" class="box"/>
+<text x="110" y="630" text-anchor="start"><tspan class="label">Data Plane</tspan><tspan x="110" dy="24" class="small">Governed knowledge, metric and retrieval products</tspan></text>
+<rect x="82" y="702" width="940" height="88" rx="14" fill="#F5EDFF" stroke="#8B4EC2" class="box"/>
+<text x="110" y="736" text-anchor="start"><tspan class="label">Tool &amp; Integration Plane</tspan><tspan x="110" dy="24" class="small">MCP, APIs, events, legacy bridges and A2A</tspan></text>
+<rect x="1092" y="172" width="206" height="618" rx="14" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="1116" y="208" class="label" text-anchor="start">Control Plane</text>
+<rect x="1116" y="242" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#B96B00" class="box"/>
+<text x="1195" y="280" class="small" text-anchor="middle">Agent &amp; tool registries</text>
+<rect x="1116" y="336" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#B96B00" class="box"/>
+<text x="1195" y="374" class="small" text-anchor="middle">Policy decisions</text>
+<rect x="1116" y="430" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#B96B00" class="box"/>
+<text x="1195" y="468" class="small" text-anchor="middle">Budgets &amp; routes</text>
+<rect x="1116" y="524" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#B96B00" class="box"/>
+<text x="1195" y="562" class="small" text-anchor="middle">Signed configuration</text>
+<rect x="1116" y="618" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#B96B00" class="box"/>
+<text x="1195" y="656" class="small" text-anchor="middle">Revocation / kill switch</text>
+<rect x="1324" y="172" width="206" height="618" rx="14" fill="#FDEEF2" stroke="#C33D61" class="box"/>
+<text x="1348" y="208" class="label" text-anchor="start">Trust &amp; Security</text>
+<rect x="1348" y="242" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#C33D61" class="box"/>
+<text x="1427" y="280" class="small" text-anchor="middle">Agent identity</text>
+<rect x="1348" y="336" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#C33D61" class="box"/>
+<text x="1427" y="374" class="small" text-anchor="middle">Credential broker</text>
+<rect x="1348" y="430" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#C33D61" class="box"/>
+<text x="1427" y="468" class="small" text-anchor="middle">Guardrails</text>
+<rect x="1348" y="524" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#C33D61" class="box"/>
+<text x="1427" y="562" class="small" text-anchor="middle">Sandbox</text>
+<rect x="1348" y="618" width="158" height="64" rx="10" fill="#FFFFFF" stroke="#C33D61" class="box"/>
+<text x="1427" y="656" class="small" text-anchor="middle">Egress &amp; DLP</text>
+<text x="1195" y="812" class="tiny" text-anchor="middle">Authors and distributes approved state</text>
+<text x="1427" y="812" class="tiny" text-anchor="middle">Applied at each controlled boundary</text>
+<rect x="82" y="846" width="440" height="108" rx="14" fill="#EAF3FB" stroke="#2F6FB3" class="box"/>
+<text x="108" y="886" text-anchor="start"><tspan class="label">AgentOps Plane</tspan><tspan x="108" dy="24" class="small">Traces, evaluation, releases and incidents</tspan></text>
+<rect x="562" y="846" width="440" height="108" rx="14" fill="#FFF4E2" stroke="#B96B00" class="box"/>
+<text x="588" y="886" text-anchor="start"><tspan class="label">Governance &amp; Assurance Plane</tspan><tspan x="588" dy="24" class="small">Inventory, risk, impact and durable evidence</tspan></text>
+<rect x="82" y="986" width="1448" height="92" rx="14" fill="#EEF5FD" stroke="#2F6FB3" class="box"/>
+<text x="110" y="1025" text-anchor="start"><tspan class="label">Infrastructure &amp; Deployment Plane</tspan><tspan x="110" dy="24" class="small">Cloud, hybrid, sovereign and edge substrate; cells, landing zones and compute</tspan></text>
+<text x="1528" y="1110" class="tiny" text-anchor="end">Logical ownership view — products may implement more than one plane</text>
+</svg>
