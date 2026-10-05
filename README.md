@@ -22,7 +22,7 @@ The separation is operational. Live work, policy distribution and evidence have 
 
 Before choosing products, an executive team should settle five decisions:
 
-1. **Topology:** start centrally, or use hub-and-spoke delivery when domain scale and release demand justify federation?
+1. **Topology:** start centrally, or use hub-and-spoke platform delivery when domain scale and release demand justify it?
 2. **Mediation:** which model, context, tool and agent-to-agent boundaries must be enterprise-controlled, and how will embedded SaaS agents be registered and observed?
 3. **Control separation:** which decisions are authored centrally, and which signed state must be evaluated locally so serving survives a control-plane outage?
 4. **Sourcing:** what should be bought, configured, reused or built in each plane, and which interfaces remain enterprise-owned?
@@ -52,14 +52,36 @@ The planes are responsibilities, not eleven required products or a build sequenc
 
 Domain leaders remain accountable for the actions their agents take. Centralizing a platform capability does not centralize every business decision.
 
+## Architecture detail
+
+The three diagrams form one architecture. The ownership-plane view defines **who owns each capability**. The three-path view defines **how live work, control and evidence interact**. The deployment view defines **where change, execution and assurance run—and how their failures are contained**.
+
+### Reference deployment
+
+![Reference deployment separates control-plane change, serving cells and protected assurance evidence](diagrams/03-reference-deployment.svg)
+
+The control-plane region pair authors signed state. Serving cells contain gateways, isolated sessions and local policy evaluation; their partitions follow an acceptable business, tenant, geography or risk-tier blast radius. Approved models, data products and systems of record remain behind explicit managed boundaries. The assurance boundary stores evidence outside the runtime's write authority.
+
+The control plane owns change; the serving path executes from already approved state. A control-plane outage freezes ordinary change. It need not stop permitted low-risk serving while signed state remains valid. Emergency revocation uses a faster restriction path, and recovery does not automatically release paused or in-flight work.
+
+### Decision rights and sourcing
+
+The business sponsor owns the funded outcome. Business and action owners define permitted actions and acceptable outcomes; risk, security and assurance owners set the control and evidence floor. Product owners approve releases, system owners approve destination contracts, and a named operational authority owns restriction and work-in-flight decisions.
+
+For every plane, compare reuse, purchase and custom work against the same contract: interfaces, service objectives, policy integration, evidence export, resilience, three-year operating cost, coexistence and exit.
+
+The [full architecture detail](architecture.md) provides the eight design rules, plane-by-plane contracts, 13-step runtime sequence, control-plane failure behavior, responsibility matrix, sourcing worksheet, nine failure scenarios and implementation review checklist.
+
+Before approval, ask: Can an agent bypass a managed boundary? What continues during a control-plane outage? Who reconciles uncertain writes? Can consequential evidence survive runtime compromise?
+
 ## Four operating rules
 
 1. **Treat the platform as a product.** Builders, operators, risk teams and domain owners need supported capabilities, owners and service objectives. A slower managed path will be bypassed.
 2. **Author centrally and enforce locally.** Distribute signed, versioned state to model, context and action boundaries. Define freshness, revocation and fail-safe behavior by risk tier.
-3. **Offer paved roads, then federate on evidence.** Begin with supported templates that include identity, gateways, evaluation and recovery. Move to hub-and-spoke delivery when demand, domain obligations or release cadence justify it.
+3. **Offer paved roads, then federate platform delivery on evidence.** Begin with supported templates that include identity, gateways, evaluation and recovery. Move to hub-and-spoke delivery when demand, domain obligations or release cadence justify it.
 4. **Own open, versioned seams.** Products and model providers remain replaceable only when contracts, conformance tests, evidence export and exit behavior belong to the enterprise.
 
-Buying implementation does not transfer accountability. For each required capability, compare products and custom work against the same interface, service, control, operating-cost and exit criteria. The enterprise still owns business meaning, identity mapping, policy, acceptance, recovery and the decision to expand or stop.
+Buying implementation does not transfer accountability. Compare products and custom work against the same interface, service, control, operating-cost and exit criteria.
 
 ## Prove one complete path before building a platform program
 
@@ -68,21 +90,14 @@ Choose one bounded workflow with an accountable business owner and a measurable 
 The first increment should demonstrate:
 
 - the destination can attribute the person, agent and authorized action;
-- context, model and action boundaries enforce current signed state;
-- a timed-out write can be reconciled without blind repetition;
-- revocation reaches every applicable boundary and work in flight has an owner;
-- evidence identifies the policy, model, context, tool, approval and outcome versions;
-- workflow benefit remains after platform consumption, review, exception and recovery effort.
+- model, context and action boundaries enforce current signed state and revocation;
+- uncertain writes can be reconciled without blind repetition;
+- evidence identifies the versions and approvals behind the outcome;
+- benefit remains after platform, review, exception and recovery effort.
 
-Turn the successful path into a reusable template and onboard a second agent from another team. Federate when central demand becomes a constraint, while retaining one inventory, common identity, an enterprise policy floor, portable traces and attributable cost.
+Turn the successful path into a reusable template and onboard a second team. Move platform delivery to a hub-and-spoke model when central demand becomes a constraint, while retaining one inventory, common identity, an enterprise policy floor, portable traces and attributable cost.
 
-Useful platform measures include time to first controlled release, adoption of supported paths, enforcement-point coverage, platform-added latency and cost, evaluation escape rate, time to restrict, unresolved reconciliation work and duplicate connectors or credentials retired. Connect them to the funded workflow outcome; a technically successful agent that does not improve that outcome should be narrowed or stopped.
-
-## Architecture detail and review
-
-[Architecture detail](architecture.md) contains plane contracts, the 13-step runtime sequence, control-plane failure behavior, the reference deployment, decision rights, build-versus-buy criteria and failure scenarios.
-
-Use its review questions before approving an implementation: Can any agent bypass a managed model, context or tool boundary? What continues during a control-plane outage? How does revocation reach every enforcement point? Which identity reaches the destination? Who reconciles uncertain writes? Can the enterprise reconstruct a consequential action? What changes when a provider is replaced?
+Measure time to first controlled release, supported-path adoption, enforcement coverage, platform-added latency and cost, evaluation escape rate, time to restrict and unresolved reconciliation work. Connect them to the funded outcome; an agent that does not improve it should be narrowed or stopped.
 
 ## How this connects to the portfolio
 
