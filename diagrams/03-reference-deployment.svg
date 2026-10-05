@@ -40,7 +40,7 @@
 
 <rect x="25" y="465" width="150" height="115" rx="13" fill="#EEF2F5" stroke="#687787" class="box"/>
 <text x="100" y="503" text-anchor="middle"><tspan class="label">Approved</tspan><tspan x="100" dy="22" class="label">models</tspan><tspan x="100" dy="25" class="small">Managed or private</tspan></text>
-<path d="M175 523 L235 523" class="arrow"/>
+<path d="M235 523 L175 523" class="arrow"/>
 <rect x="1425" y="465" width="150" height="115" rx="13" fill="#EEF2F5" stroke="#687787" class="box"/>
 <text x="1500" y="503" text-anchor="middle"><tspan class="label">Systems</tspan><tspan x="1500" dy="22" class="label">of record</tspan><tspan x="1500" dy="25" class="small">Core platforms</tspan></text>
 <path d="M1345 523 L1425 523" class="arrow"/>
