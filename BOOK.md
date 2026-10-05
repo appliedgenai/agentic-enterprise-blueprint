@@ -1,8 +1,8 @@
-# About *The Agentic Enterprise*
+# About the upcoming book
 
-*The Agentic Enterprise: Patterns and Reference Architectures for Enterprise AI Adoption* is a book-length architecture manuscript by Mohit Mittal. The 2026 manuscript provides a consistent vocabulary, C4 views, pattern cards, anti-patterns, decision guides, implementation roadmaps and technology mappings for enterprise AI adoption.
+*The Agentic Enterprise: Patterns and Reference Architectures for Enterprise AI Adoption* is the working manuscript for Mohit Mittal's upcoming book. It provides a consistent vocabulary, C4 views, pattern cards, anti-patterns, decision guides, implementation roadmaps and technology mappings for enterprise AI adoption.
 
-This repository adapts the central reference architecture from Chapter 2. It does not publish the full manuscript.
+This repository adapts the central reference architecture from Chapter 2 of the working manuscript. It does not publish the full manuscript.
 
 ## Book structure
 
@@ -58,4 +58,4 @@ Appendices provide the pattern catalog, technology mapping, architecture review 
 - **Data and analytics leader:** Chapters 8–11, connected back to the reference architecture in Chapter 2.
 - **Product or operations leader:** Chapters 1, 18, 19 and 21.
 
-Public companion papers include [Earned Autonomy](https://github.com/appliedgenai/earned-autonomy), [From Intent to Production](https://github.com/appliedgenai/intent-to-production) and [Data Products for the Agent Economy](https://github.com/appliedgenai/agent-data-products).
+Public companion papers develop three parts of the architecture: [Earned Autonomy](https://github.com/appliedgenai/earned-autonomy) defines action-specific authority and the evidence required to change it; [From Intent to Production](https://github.com/appliedgenai/intent-to-production) connects intent, specifications, knowledge, execution and release evidence across employee-assisted and autonomous delivery modes; and [Data Products for the Agent Economy](https://github.com/appliedgenai/agent-data-products) treats knowledge graphs, semantic metrics and retrieval/vector indexes as governed products for many agents.
